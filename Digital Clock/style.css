@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+#main {
+    display: flex;
+    height: 100vh;
+    background: url('./img/beach-blur-boardwalk-132037.jpg');
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.output {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+.output span{
+    display: block;
+}
+.output span:first-child{
+   font-size: 50px;
+   font-weight: 700;
+   margin-bottom: 10px;
+}
+
+.hr,
+.min,
+.sec {
+    width: 200px;
+    padding: 10px;
+    width: 120px;
+    padding: 55px 0px;
+    background: linear-gradient(to bottom, #2659AC, #FEC85E);
+    margin: 7px;
+    opacity: 0.8;
+    border-radius: 10px;
+}
